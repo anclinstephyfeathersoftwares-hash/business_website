@@ -5,11 +5,15 @@ import ShowcaseSection from "./components/ShowcaseSection";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
 import Realities from "./components/Realities";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
 
 export default function App() {
   return (
     <div>
       <HeroSection />
+        <Hero />
+      <Services />
       <ServicesSection />
       <Realities />
       <ShowcaseSection />
