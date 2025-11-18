@@ -1,11 +1,18 @@
-import ZoomScrollSection from "./components/ZoomScrollSection";
+import React from "react";
+import HeroSection from "./components/HeroSection";
+import ServicesSection from "./components/ServicesSection";
+import ShowcaseSection from "./components/ShowcaseSection";
+import AboutSection from "./components/AboutSection";
+import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
     <div>
-      <ZoomScrollSection />
+      <HeroSection />
+      <ServicesSection />
+      <ShowcaseSection />
+      <AboutSection />
+      <Footer />
     </div>
   );
 }
-
-export default App;
